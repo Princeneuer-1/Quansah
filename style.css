@@ -1,0 +1,73 @@
+body {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: skyblue;
+  color: blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+}
+
+img:hover {
+  width: 400px;
+}
+
+figure {
+  display: flex;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+nav {
+  background: rgb(253, 251, 251);
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  border-radius: 36px;
+  box-shadow: 2px 2px 20px rgba (0, 0, 0.3);
+}
+
+nav > a {
+  color: rgb(19, 60, 244);
+  text-decoration: none;
+  padding: 2px 2px;
+  border-radius: 22px;
+}
+
+nav > a:hover {
+  transition: 0.25s;
+  background: rgb(19, 60, 244);
+  color: white;
+}
+
+details > p {
+  color: crimson;
+}
+
+p > a {
+  color: blue;
+}
+
+p > a:hover {
+  color:white;
+  background-color: blue;
+}
